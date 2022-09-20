@@ -5,11 +5,11 @@ import Navbar from '../../components/navbar/navbar';
 import './home.scss';
 import Featured from '../../components/featured/featured';
 import List from '../../components/list/list';
-const Home = () => {
+const Home = ({type}) => {
   return (
     <div className='home'>
         <Navbar/>
-        <Featured type="series"/>
+        <Featured type={type}/>
         <List/>
         <List/>
         <List/>

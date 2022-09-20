@@ -8,7 +8,7 @@ const Featured = ({type}) => {
     <div className='featured '>
         {type && (
           <div className='category'>
-            <span>{type === "movie"? "Movies":"Series"}</span>
+            <span>{type === "movies"? "Movies":"Series"}</span>
             <select name='genre' id='genre'>
               <option>Genre</option>
               <option value='adventure'>Adventure</option>
@@ -38,9 +38,7 @@ const Featured = ({type}) => {
           <span className='desc'>
             I am Leo dffvdjfbvuj dfbvsdfnkjnidvmf vdnjknfjdklvbdfvkjdfb;dfjkvnkjdfvkjndvfsdvlknsoivjdvudvjdvubdjkvdbvsjv
             I am Leo dffvdjfbvuj dfbvsdfnkjnidvmf vdnjknfjdklvbdfvkjdfb;dfjkvnkjdfvkjndvfsdvlknsoivjdvudvjdvubdjkvdbvsjv
-            I am Leo dffvdjfbvuj dfbvsdfnkjnidvmf vdnjknfjdklvbdfvkjdfb;dfjkvnkjdfvkjndvfsdvlknsoivjdvudvjdvubdjkvdbvsjv
-            I am Leo dffvdjfbvuj dfbvsdfnkjnidvmf vdnjknfjdklvbdfvkjdfb;dfjkvnkjdfvkjndvfsdvlknsoivjdvudvjdvubdjkvdbvsjv
-            I am Leo dffvdjfbvuj dfbvsdfnkjnidvmf vdnjknfjdklvbdfvkjdfb;dfjkvnkjdfvkjndvfsdvlknsoivjdvudvjdvubdjkvdbvsjv
+           
           </span>
           <div className="buttons">
             <button className='play'>
